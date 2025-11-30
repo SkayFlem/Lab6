@@ -44,5 +44,6 @@ int main() {
 
 
 <img width="330" height="63" alt="Снимок экрана 2025-12-01 023950" src="https://github.com/user-attachments/assets/752b0e26-b394-4b05-8101-4c04da048cdc" />
+
 ## 4. Информация о разработчике
 Мозгунов Артем - бИПТ 252
