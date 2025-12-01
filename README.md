@@ -17,8 +17,11 @@
 
 ## 2. Реализация программы
 #include <stdio.h>
+#include <locale.h>
 
 int main() {
+
+    setlocale(LC_ALL,"RUS");
     int N, sum = 0;
     
     printf("Введите N (N < 1000): ");
@@ -30,7 +33,7 @@ int main() {
     }
 
     sum = N/100 + (N/10)%10 + N%10;
-153
+
     if (sum % 3 == 0)
         printf("Сумма цифр числа %d кратна 3\n", N);
     else
