@@ -1,0 +1,27 @@
+#define _USE_MATH_DEFINES
+#define _CRT_SECURE_NO_WARNINGS
+#include <locale.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main() {
+	setlocale(LC_ALL, "RUS");
+
+
+    double x;
+    printf("Введите значение x:\n");
+    scanf("%lf", &x); 
+
+    double f = (pow(x, 2) + 3 * x + 9);
+    double f2 = x / (pow(x, 3) - 6);
+
+    if (x >= 3) {
+        printf("Вывод: %.3f\n", f);
+    }
+    else {
+        printf("Вывод: %.3f\n", f2);
+    }
+
+
+}
