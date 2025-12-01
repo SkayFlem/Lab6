@@ -12,7 +12,8 @@
 3. **Конец**
    
 ### Блок-схема
-<img width="121" height="391" alt="Диаграмма без названия drawio (8)" src="https://github.com/user-attachments/assets/9b8c2219-1504-4964-98f0-6cb96e9c827f" />
+<img width="496" height="433" alt="image" src="https://github.com/user-attachments/assets/0c07e228-6166-4d27-83cb-74fe16d6fb40" />
+
 
 
 ## 2. Реализация программы
